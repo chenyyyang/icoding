@@ -19,7 +19,7 @@ package search;
  * */
 public class BinarySearch {
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         int[] arr = {4, 5, 6, 78, 88};
         System.out.println(binarySearch(arr, 78));
     }
@@ -43,5 +43,24 @@ public class BinarySearch {
         }
         return -1;
 
+    }
+
+    //    ----------------------------------
+    // 求数组最大值 ，利用递归来做
+    public static void main(String[] args) {
+        int[] arr = {4, 5, 6, 78, 88};
+        System.out.println(getMax(arr, 0, arr.length - 1));
+    }
+
+    private static int getMax(int[] arr, int left, int right) {
+
+        if (left == right) {
+            return arr[left];
+        }
+
+        int mid = (right - left) >> 1 + left;
+        int leftMax = getMax(arr, left, mid);
+        int rightMax = getMax(arr, mid + 1, right);
+        return Math.max(leftMax, rightMax);
     }
 }
