@@ -1,4 +1,4 @@
-package c1_sort;
+package arrays.c1_sort;
 /*
  * 插入排序
  * 4，7，2，3，100，17，24

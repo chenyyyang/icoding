@@ -1,4 +1,4 @@
-package search;
+package arrays.search;
 
 /*
  * 在有序数组中，查找某个数是否存在。

@@ -1,4 +1,4 @@
-package c1_sort;
+package arrays.c1_sort;
 
 /*
  *   & 与运算  101 & 000 = 000

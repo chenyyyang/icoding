@@ -1,4 +1,4 @@
-package c1_sort;
+package arrays.c1_sort;
 /*
 * 冒泡排序
 比较相邻的元素。如果第一个比第二个大，就交换他们两个。

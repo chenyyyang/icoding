@@ -1,11 +1,11 @@
-package c1_sort;
+package arrays.c1_sort;
 
 /*
  * 归并排序
  * 有2个有序数组，如何合并成一个有序数组
  *
  * 一个有序数组，分成2半
- *
+ *时间复杂度  O（NlogN）
  *
  * */
 public class MergeSort {
@@ -18,7 +18,9 @@ public class MergeSort {
         selection_Sort(arrays2);
 
         int[] arrays = new int[arrays1.length + arrays2.length];
+        //---------------------------------------------------
 
+        //---------------------------------------------------
         int index = 0;
         int p1 = 0, p2 = 0;
         while (p1 < arrays1.length && p2 < arrays2.length) {
