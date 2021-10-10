@@ -1,4 +1,4 @@
-package arrays;
+package arrays.c1_sort;
 
 public class 双指针问题 {
     /*
